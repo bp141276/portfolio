@@ -1,0 +1,23 @@
+Polish NLP Article Classifier — Student Project for Big Data Course
+
+Description:
+An individual project for a Big Data course. The goal is a simple NLP analysis of Polish articles from onet.pl.
+Articles are classified into 3 groups based on content:
+- positive
+- concerning
+- stressful
+
+Project contents:
+- notebook.html — early version of results in HTML format
+- notebook.ipynb — optimized code in Databricks/Jupyter notebook
+- articles/ — folder with article texts for analysis
+
+Environment:
+- Databricks Community Edition
+- Apache Spark for data processing
+- Basic text processing: cleaning, tokenization, stopwords removal, lemmatization, clustering
+
+Notes:
+- The project focuses on the Polish language
+- Classification is based on unsupervised methods (clustering)
+- Demonstrates basics of processing large text datasets and NLP
