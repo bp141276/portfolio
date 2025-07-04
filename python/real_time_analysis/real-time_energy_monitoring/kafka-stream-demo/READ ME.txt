@@ -1,0 +1,15 @@
+Real-Time Energy Monitoring Dashboard
+This is a real-time data analysis project developed as part of a university course in a five-person team.
+The system monitors energy demand and dynamically adjusts the number of wind turbines and solar panels based on live Kafka data streams.
+
+Key Features
+-Real-time Kafka data processing
+-LOESS smoothing for stable adjustments
+-Live dashboard using Dash and Plotly
+-Adaptive error monitoring and alert system
+-CSV export of selected timeframes
+
+Tech Stack
+-Python, Dash, Plotly
+-Apache Kafka
+-Docker
